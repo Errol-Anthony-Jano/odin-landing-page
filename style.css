@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+/* header styling begins here */
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 120px;
+    color: #f9faf8
+}
+
+.logo-text {
+    font-size: 24px;
+}
+
+/* header styling ends here */
+
+/* hero section styling begins here */
+.hero-section {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 120px;
+}
+
+.hero-section h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+    justify-content:  center;
+    align-items: center;
+    padding: 48px 120px;
+}
+
+.items-container {
+    display: flex;
+    text-align: center;
+}
+
+.info-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.info-image {
+    width: 150px;
+}
+
+.info-section h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+button {
+    width: 120px;
+    height: 36px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border: 0;
+    border-radius: 8px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 16px;
+}
+
+a, .hero-section p {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+    padding: 48px 120px;
+}
+
+.quote-section p {
+    font-size: 36px;
+    font-weight: light;
+}
+
+.quote-author {
+    text-align: right;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 120px;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    border-radius: 8px;
+    background-color: #3882f6;
+    padding: 32px 96px;
+}
+
+.cta-message {
+    color: #e5e7eb;
+}
+
+.cta-message h3 {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+.cta-invitation {
+    color: #e5e7eb;
+}
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    color: #f9faf8;
+}
+
+.cta button {
+    box-sizing: border-box;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+}
+
+/*src:
+https://images.pexels.com/photos/27864500/pexels-photo-27864500/free-photo-of-a-man-is-walking-on-the-sidewalk-in-front-of-a-bridge.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+https://images.pexels.com/photos/2738173/pexels-photo-2738173.jpeg?auto=compress&cs=tinysrgb&w=600
+*/
